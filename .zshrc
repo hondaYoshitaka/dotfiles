@@ -33,8 +33,8 @@ fi
 
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/yhonda/.sdkman"
-[[ -s "/Users/yhonda/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/yhonda/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="${HOME}/.sdkman"
+[[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
